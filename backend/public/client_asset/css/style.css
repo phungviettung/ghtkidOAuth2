@@ -1,0 +1,93 @@
+.btnghtk{
+	background: #01904a;
+}
+.btnghtk:hover{
+	background: #000 !important;
+}
+.wrapper .navbarghtk{
+	background-color: #01904a !important;
+}
+/*.sidebar .logo{
+	background: #01904a;
+}*/
+.sidebar[data-active-color="danger"] .nav li.active a,.sidebar[data-active-color="danger"] .nav li.active i{
+	color: #01904a !important;
+}
+.ghtk{
+	background: #01904a;
+}
+.edit{
+	
+}
+.editapp{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.4;
+	/*left: 50%;
+   	transform: translateX(-50%);*/
+    bottom: 0;
+    z-index: 1500;
+    overflow: hidden;
+    outline: 0;
+}
+.btnappbl{
+	top: 5% !important;
+}
+.dialogedit{
+	position: fixed;
+	z-index: 1600;
+	background: #fff;
+	width: 40%;
+	left: 50%;
+	top: 15%;	
+	transform: translateX(-50%);
+	border-radius: 3px;
+}
+.editapp-title{
+	margin-top: 0px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btclose{
+	margin-top: -59px;
+	margin-right: 15px;
+}
+.modal-dialog{
+	margin-top: 10%;
+	width: 40%;
+}
+.card label{
+	font-size: 14px;
+}
+.delapp-footer{
+	display: flex !important;
+    justify-content: space-around !important;
+}
+.codehtml{
+	border: solid 1px;
+	padding: 10px;
+}
+.pc{
+	display: none;
+}
+@media all and (max-width: 768px) {
+	.ip{
+		display: none;
+	}
+	.pc{
+		display: block;
+		margin-top: 5px !important;
+	}
+	.btndel{
+		width: 150px;
+		margin-top: 5px !important;
+
+	}
+	.btnedit{
+		width: 150px;
+	}
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>ghtk</title>
+  <link href="public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="public/css/simple-sidebar.css" rel="stylesheet">
+  <link href="public/css/main.css" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">  
+  <link rel="stylesheet" href="./style.css">
+
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">khanhpd@ghtk.com</div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Tài Khoản Của Tôi</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Đơn Mua</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Thông Báo</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Ví Voucher</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">GHTK Xu</a>
+        
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-success" id="menu-toggle">GHTK</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Thông Báo<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trợ Giúp</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Người Dùng
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Đơn mua</a>
+                <a class="dropdown-item" href="#">Chỉnh sửa tài khoản</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Thoát</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <h5>Hồ Sơ Của Tôi</h5>
+        <h6>Quản lý thông tin cá nhân</h6>
+        <hr>
+          
+        <div id="left">   
+          <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>           
+              <a id="email1">khanhpd@ghtk.com </a>
+              <a id="email2" href="#" style="text-decoration: underline"> Thay Đổi</a>
+          </div>
+
+          <div class="form-group row">      
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Điện thoại</label>
+            <a id="dienthoai1">0123456789</a>
+            <a id="dienthoai2" href="#" style="text-decoration: underline">Thay Đổi</a>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Mật khẩu</label>   
+            <form class="form-inline">
+              <div class="form-group">        
+                <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline" placeholder="*********"><br>
+                <a href="#" style="text-decoration: underline;">Thay đổi</a><br/>
+               
+              </div>
+            </form>              
+          </div>
+           <!--  <small id="smallpass" class="text-muted">
+                Must be 8-20 characters long.
+            </small>  -->
+            
+          <div class="form-group row">  
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Tên shop</label>   
+            <form class="form-inline">
+              <div class="form-group">        
+                <input type="text" id="inputPassword6" class="form-control mx-sm-3"  placeholder="ghtk">     
+              </div>
+            </form>             
+          </div>
+
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Giới tính</label>
+            <div id="radio1">
+              <input type="radio" name="radioGioitinh" >Nam</label>
+              <input type="radio" name="radioGioitinh" >Nữ</label><br>  
+            </div>
+          </div>      
+
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Ngày sinh</label>
+            <form class="form-inline">
+              <div class="form-group">        
+                  <label for="start"></label>
+                  <div id="date1">
+                    <input type="date" id="start" name="trip-start" value="" min="1500-01-01" max="2019-12-31">      
+                  </div>
+              </div>
+            </form>   
+          </div>
+
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label"></label>
+            <form class="form-inline">
+              <div class="form-group"> 
+              <div id="luu1">
+                  <button type="button" class="btn btn-success">Lưu</button>
+              </div>
+            </form>   
+          </div>
+        </div>       
+      </div>
+
+       <div id="right">
+          <div class="container">
+            <h1>GHTK
+                <small>with master dev</small>
+            </h1>
+            <div class="avatar-upload">
+                <div class="avatar-edit">
+                    <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                    <label for="imageUpload"></label>
+                </div>            
+                <div class="avatar-preview">
+                    <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=37);">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="public/vendor/jquery/jquery.min.js"></script>
+  <script src="public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+    
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+  
+</body>
+
+</html>
